@@ -4,6 +4,7 @@
 
 - A modified version of [@menix1337](https://www.github.com/menix1337)'s [Legacy](https://github.com/menix1337/WindowsGSM.TheIsleLegacy) 
 
+- Report issues with the WindowsGSM plugin on this github please. See [New issue](https://github.com/ksduster/WindowsGSM.TheIsle/issues/new)
 # This version adds in support for:
 - Automatic download of Game.ini and Engine.ini upon server bug from Evrima where the files are deleted when stopped.
 - Game.ini settings under [/Script/TheIsle.TIGameSession] are updated from start params.  Do not update servername or maxplayercount in start params.
