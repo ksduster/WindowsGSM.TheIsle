@@ -59,7 +59,9 @@ Availabe values:
 `RconPort=portnumber`
 
 `bServerDynamicWeather=true/false` // Evrima update 0.15.191 - Temporarily disabled - has no effect
+
 `MinWeatherVariationInterval=600` // Set in seconds how often to switch weather - added v0.17.54
+
 `MaxWeatherVariationInterval=900` // Set in seconds how often to switch weather - added v0.17.54
 
 `ServerDayLengthMinutes=45`  // Value in minutes
@@ -89,16 +91,27 @@ Availabe values:
 `bEnableMutations=true/false` // Enable/disable all mutations.  See Game.ini to enable/disable specific mutation types.
 
 `bUseRegionSpawning=false` //Enable region spawn
+
 `bUseRegionSpawnCooldown=true` //Enable region cooldown
+
 `RegionSpawnCooldownTimeSeconds=600` //Region cooldown max time.
+
 `CorpseDecayMultiplier=1` //Multiplies how fast corpses decay to despawn - Reduce value to be faster Added v0.17.54
+
 `bAllowRecordingReplay=true` //Enable replays.
+
 `bEnableDiets=true` //Enable/Disable diets, no more buffs
+
 `bEnableMigration=true` //Disable/Enable Migrations, include Patrols and Mass
+
 `SpeciesMigrationTime=10800` //Max time a species MZ stays active
+
 `bEnableMassMigration=true` //Enable/Disable Mass migration
+
 `MassMigrationTime=43200` //Value is in seconds 12h - How often new mass migration is set
+
 `MassMigrationDisableTime=7200` // Value is in seconds 2h - How long a mass migration last once set
+
 `bEnablePatrolZones=true` //Enable/Disable PatrolZone system
 
 // Add the names of each AI class that should be disabled, one line for each.
